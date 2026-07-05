@@ -15,16 +15,16 @@ Layihədə autentifikasiya, CRUD əməliyyatları, müsbət (Positive) və mənf
 
 ## Authentication
 
-- Token yaradılması
+- Get Token
 
 ## CRUD əməliyyatları
 
-- Booking yaratmaq
-- Booking məlumatını əldə etmək
-- Bütün booking-ləri əldə etmək
-- Booking məlumatını yeniləmək
-- Booking-i silmək
-- Silinmiş booking-in yoxlanılması
+- Create Booking
+- Get Booking By ID
+- Get All Bookings
+- Update Booking
+- Delete Booking
+- Verify Booking Deleted
 
 ## Positive Test Ssenariləri
 
@@ -37,12 +37,12 @@ Layihədə autentifikasiya, CRUD əməliyyatları, müsbət (Positive) və mənf
 
 ## Negative Test Ssenariləri
 
-- Yanlış login məlumatları
-- Mövcud olmayan Booking ID
-- Token olmadan Update əməliyyatı
-- Token olmadan Delete əməliyyatı
-- Yanlış endpoint
-- Boş Body ilə Booking yaratmaq
+- Invalid Login
+- Invalid Booking ID
+- Update Without Token
+- Delete Without Token
+- Wrong Endpoint
+- Create Booking with Empty Body
 
 ## Avtomatlaşdırılmış Testlər
 
